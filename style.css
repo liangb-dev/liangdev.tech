@@ -27,7 +27,8 @@ a.logo-small {
     float: left;
 }
 .header ul {
-	flex-grow: 2;
+	flex-grow: 1;
+	float: right;
 }
 .header li {
     display: inline;
@@ -43,10 +44,11 @@ ul .nav {
 	text-decoration: none;
 }
 
+
 /* Jumboton */
 
 .jumbotron {
-	background: url("./tyler-lastovich-453203-unsplash.jpg") center center;
+	background: url("./tyler-lastovich-453203-unsplash.jpg") center;
 	background-size: cover;
 	height: 600px;
 }
@@ -56,9 +58,9 @@ ul .nav {
 	top: 150px;
 	background-color: white;
 	opacity: 0.5;
-	width: 25%;
+	width: 30rem;
 	margin-left: 7%;
-	padding: 0 20px 30px 20px;
+	padding: 5px 20px 30px 20px;
 }
 
 .jumbotron p {
@@ -76,4 +78,44 @@ ul .nav {
 
 .jumbotron .author {
 	color: orange;
+}
+
+
+.main .container {
+	padding: 50px 100px;
+	height: 70%;
+	background-color:black;
+	color: white;
+	opacity: 0.87;
+}
+
+.main .first-letter {
+	font-size: 4.44rem;
+	color: orange;
+	position: relative;
+	line-height: 0.87;
+}
+
+.main .author {
+	color: orange;
+}
+
+
+
+/* About */
+.about .container {
+	background-color: lightgrey;
+	height: 700px;
+}
+
+/* Portfolio */
+.portfolio .container {
+	background-color: #2a2a2a;
+	height: 700px;
+	color: white;
+}
+/* Contact */
+.contact .container {
+	background-color: lightgrey;
+	height: 700px;
 }
